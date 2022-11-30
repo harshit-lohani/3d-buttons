@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Assignment One</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li>BITS F364</li>
+                <li>HCI</li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="wrapper-main">
+            <div class="col-1">
+                <div class="box">
+                    <h3>Student Details</h3>
+                    <table>
+                        <tr>
+                            <td>Name</td>
+                            <td>Vansh</td>
+                        </tr>
+                        <tr>
+                            <td>ID</td>
+                            <td>2019XXXXXXXX</td>
+                        </tr>
+                    </table>
+                </div>
+
+                <div class="gender">
+                    <h3>Gender</h3>
+                    <div class="wrapper inline">
+                        <input type="radio" name="rd-gender" id="male" checked> <label for="male">Male</label>
+                    </div>
+                    <div class="wrapper inline">
+                        <input type="radio" name="rd-gender" id="female"> <label for="female">Female</label>
+                    </div>
+                </div>
+
+                <div class="rating">
+                    <h3>Course rating</h3>
+                    <input type="radio" name="rd-rating" id="rd-1">
+                    <input type="radio" name="rd-rating" id="rd-2">
+                    <input type="radio" name="rd-rating" id="rd-3">
+                    <input type="radio" name="rd-rating" id="rd-4">
+                    <input type="radio" name="rd-rating" id="rd-5">
+                </div>
+
+
+                <div class="recom">
+                    <h3>Would you like to recommend this course to someone?</h3>
+                    <div class="wrapper">
+                        <input type="radio" name="rd-recom" id="rd-yes"><label for="rd-yes"> Yes</label>
+                    </div>
+                    <div class="wrapper">
+                        <input type="radio" name="rd-recom" id="rd-no"><label for="rd-no"> No</label>
+                    </div>
+                </div>
+
+                <div class="news">
+                    <h3>Subscribe to newsletter?</h3>
+                    <input type="checkbox" id="ch-news" checked>
+                </div>
+
+                <div class="btn">
+                    SUBMIT
+                </div>
+            </div>
+
+            <div class="col-2">
+                <img src="./image.png" alt="3d-image">
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>
